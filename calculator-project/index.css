@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.calculator_container{
+    height: 200px;
+    border: 1px solid chocolate;
+    height: 320px;
+    width: 250px;
+    position: absolute;
+    top: 25%;
+  left: 33%;
+    
+}
+
+.Display{
+    height: 55px;
+    font-size: 30px;
+    margin: 10px;
+    width: 90%;
+}
+
+.calculator-btn {
+height: 40px;
+    width: 50px;
+   margin: 5px;
+   display 
+}
+
+.number_container{
+  display: flex;
+justify-content:center;
+flex-wrap: wrap;
+font-size: 55px;
+}

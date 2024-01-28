@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<div class="calculator_container">
+    <input type="text" class="Display" >
+    <div class="number_container">
+
+        <button class="calculator-btn" onclick="displayNumber +='7' ;document.querySelector('.Display').value=displayNumber;">7</button>
+        
+
+        <button class="calculator-btn" onclick="displayNumber = displayNumber + '8' ;document.querySelector('.Display').value=displayNumber;">8</button>
+
+        <button class="calculator-btn" onclick="displayNumber = displayNumber + '9' ;document.querySelector('.Display').value=displayNumber;">9</button>
+
+        <button class="calculator-btn" onclick="displayNumber = displayNumber + '+' ;document.querySelector('.Display').value=displayNumber;">+</button>
+
+        <button class="calculator-btn" onclick="displayNumber = displayNumber + '4' ;document.querySelector('.Display').value=displayNumber;">4</button>
+
+        <button class="calculator-btn" onclick="displayNumber = displayNumber + '5' ;document.querySelector('.Display').value=displayNumber;">5</button>
+
+        <button class="calculator-btn" onclick="displayNumber = displayNumber + '6' ;document.querySelector('.Display').value=displayNumber;">6</button>
+
+        <button class="calculator-btn" onclick="displayNumber = displayNumber + '-' ;document.querySelector('.Display').value=displayNumber;">-</button>
+
+        <button class="calculator-btn" onclick="displayNumber = displayNumber + '1' ;document.querySelector('.Display').value=displayNumber;">1</button>
+
+        <button class="calculator-btn" onclick="displayNumber = displayNumber + '2' ;document.querySelector('.Display').value=displayNumber;">2</button>
+        
+
+        <button class="calculator-btn" onclick="displayNumber = displayNumber + '3';document.querySelector('.Display').value=displayNumber;">3</button>
+
+        <button class="calculator-btn" onclick="displayNumber = displayNumber + '*' ;document.querySelector('.Display').value=displayNumber;">x</button>
+
+        <button class="calculator-btn" onclick="displayNumber ='' ;document.querySelector('.Display').value=displayNumber;">C</button>
+
+        <button class="calculator-btn" onclick="displayNumber = displayNumber + '0' ;document.querySelector('.Display').value=displayNumber;">0</button>
+
+        <button class="calculator-btn" onclick="displayNumber = eval(displayNumber);document.querySelector('.Display').value=displayNumber;">=</button>
+
+        <button style="background-color:rgb(129, 8, 8); border:none; color: white; border-radius: 5PX; font-weight: 900;" class=calculator-btn " onclick="displayNumber = displayNumber + '/' ;document.querySelector('.Display').value=displayNumber;">/</button>
+        
+
+    </div>
+</div>
+
+
+<script src="index.js"></script><body>
+    
+</body>
+</html>
